@@ -1,6 +1,6 @@
 version: 2.1
   orbs:
-    sfdx: circleci/salesforce-sfdx@x.y
+    salesforce-sfdx: circleci/salesforce-sfdx@1.0.0
   jobs:
     install_authenticate:
       executor: sfdx/default
