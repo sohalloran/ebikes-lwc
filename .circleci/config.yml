@@ -8,11 +8,12 @@ jobs:
       - checkout
       - sfdx/install
       - sfdx/auth:
-        defaultusername: soh@edi.com
+          defaultusername: soh@edi.com
       - run:
-        name: Run your SFDX commands here
-        command: |
+        command: >
           echo "You now have access to the sfdx cli and may execute commands against it. https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm"
+          sfdx force:auth:list
+        name: Run your SFDX commands here
 workflows:
   basic-test:
     jobs:
