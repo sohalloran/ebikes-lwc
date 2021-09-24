@@ -1,4 +1,4 @@
-# E-Bikes Lightning Web Components Sample Application
+# E-Bikes Lightning Web Components Sample Application 
 
 [![Github Workflow](<https://github.com/trailheadapps/ebikes-lwc/workflows/Salesforce%20DX%20CI%20(scratch%20org%20only)/badge.svg>)](https://github.com/trailheadapps/ebikes-lwc/actions)
 
